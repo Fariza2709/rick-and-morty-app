@@ -6,7 +6,7 @@
 ## Установка
 1. Клонируйте репозиторий:
    ```bash
-   git clone 
+   git clone https://github.com/Fariza2709/rick-and-morty-app
 
 ## Перейдите в директорию проекта:
 cd rick-and-morty-app
@@ -25,10 +25,6 @@ HtmlWebpackPlugin: Генерация HTML-файла.
 CopyWebpackPlugin: Копирование favicon.
 VueLoaderPlugin: Поддержка Vue компонентов.
 DefinePlugin: Определение переменных окружения.
-
-## Предупреждения и ошибки
-Предупреждение Conflicting values for 'process.env.NODE_ENV':
-Это предупреждение возникает при конфликте значений для process.env.NODE_ENV. Данное значение присутствует в  файле: .env.development. 
 
 ## Тестирование
 Для запуска тестов используйте команду:
