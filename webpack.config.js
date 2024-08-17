@@ -16,7 +16,7 @@ module.exports = {
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'src/favicon.ico', to: 'favicon.ico' }
+        { from: './favicon.ico', to: 'favicon.ico' }
       ],
     }),
     new VueLoaderPlugin(),
