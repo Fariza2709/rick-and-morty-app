@@ -7,7 +7,8 @@
     "test:e2e": "cypress open",
     "build": "webpack --mode production",
     "serve": "webpack serve --mode development",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vue/cli-plugin-unit-jest": "^5.0.8",
