@@ -5,14 +5,14 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-  entry: './src/main.js',
+  entry: './main.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
+      template: 'index.html',
     }),
     new CopyWebpackPlugin({
       patterns: [
